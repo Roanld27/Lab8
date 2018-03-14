@@ -5,8 +5,8 @@
  */
 public class Employee {
 
-    private String name;
-    private String manager;
+    public String name;
+    public String manager;
 
     /**
      * Constructor for initialization.
@@ -25,7 +25,6 @@ public class Employee {
     public String getName() {
         return name;
     }
-
     /**
      * Setter for name.
      * @param name
